@@ -12,6 +12,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://${token}@github.com/syksy365/syksy365.github.io.git master
+git push -f https://${GITHUB_TOKEN}@github.com/syksy365/syksy365.github.io.git master
 
 cd -
