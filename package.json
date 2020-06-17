@@ -1,0 +1,16 @@
+{
+  "name": "syksy365.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ABoat365",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-nprogress": "^1.5.2",
+    "vuepress": "^1.5.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
