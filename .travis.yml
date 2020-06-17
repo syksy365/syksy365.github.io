@@ -15,7 +15,7 @@ cache: yarn
 
 install: yarn
 
-script: yarn docs:build
+script: ./deploy.sh
 
 deploy:
   provider: pages
