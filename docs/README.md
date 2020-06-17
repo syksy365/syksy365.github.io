@@ -5,7 +5,7 @@ heroImage: /min-syksy.png
 heroText: SYKSY
 tagline: 也许是 JAVA Web 系统的最佳支撑平台
 actionText: 快速上手 →
-actionLink: /v1.0.0/
+actionLink: /v1/
 features:
 - title: 简洁至上
   details: 创建一个 Spring Boot 工程，引入一个 Starter 即可。
