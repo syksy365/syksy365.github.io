@@ -1,32 +1,40 @@
 module.exports = {
-    base: '/',
-    title: 'syksy',
-    description: 'syksy官方文档',
-    themeConfig: {
-        logo: '/min-syksy.png',
-        nav: [
-          { text: '首页', link: '/' },
-          {
-            text: '版本',
-            ariaLabel: '版本菜单',
-            items: [
-              { text: 'v1.0.0', link: '/v1.0.0/' }
-            ]
-          },
-          { text: 'Gitee', link: 'https://gitee.com/syksy/syksy-boot' },
-        ],
-        lastUpdated: true,
-        sidebar: [
-            {
-                title: 'V1.0.0',
-                collapsable: false,
-                children: [
-                    '/v1.0.0/',
-                    '/v1.0.0/one.md',
-                    '/v1.0.0/two.md'
-                ]
-            }
+  base: '/',
+  title: 'syksy',
+  description: 'syksy官方文档',
+  themeConfig: {
+    logo: '/min-syksy.png',
+    nav: [
+      { text: '首页', link: '/' },
+      {
+        text: '版本',
+        ariaLabel: '版本菜单',
+        items: [
+          { text: '版本一', link: '/v1/' }
         ]
-    },
-    plugins: ['@vuepress/back-to-top','@vuepress/nprogress']
+      },
+      { text: 'Gitee', link: 'https://gitee.com/syksy/syksy-boot' },
+    ],
+    lastUpdated: true,
+    sidebar: [
+      {
+        title: '指南',
+        collapsable: false,
+        children: [
+          '/guide/',
+          '/guide/getting-started.md'
+        ]
+      },
+      {
+        title: '版本一',
+        collapsable: false,
+        children: [
+          '/v1/',
+          '/v1/one.md',
+          '/v1/two.md'
+        ]
+      }
+    ]
+  },
+  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress']
 }
