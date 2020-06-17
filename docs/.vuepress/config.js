@@ -44,7 +44,7 @@ module.exports = {
     ['meta', { name: "msapplication-TileColor", content: "#da532c" }],
     ['meta', { name: "theme-color", content: "#ffffff" }],
   ],
-  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress','@vuepress/pwa',{
+  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress', '@vuepress/active-header-links', '@vuepress/last-updated', '@vuepress/medium-zoom', '@vuepress/pwa', {
     serviceWorker: true,
     updatePopup: true
   }],
