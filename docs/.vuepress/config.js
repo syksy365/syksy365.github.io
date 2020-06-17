@@ -36,5 +36,10 @@ module.exports = {
       }
     ]
   },
-  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress']
+  head: [
+		['link', { rel: 'icon', href: '/favicon.ico' }],
+		['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
+	],
+  plugins: ['@vuepress/back-to-top', '@vuepress/nprogress'],
+  serviceWorker: true
 }
