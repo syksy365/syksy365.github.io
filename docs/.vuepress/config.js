@@ -1,7 +1,7 @@
 module.exports = {
   base: '/',
-  title: 'syksy',
-  description: 'syksy官方文档',
+  title: '轻舟',
+  description: '轻舟官方文档',
   themeConfig: {
     logo: '/min-syksy.png',
     nav: [
@@ -13,7 +13,7 @@ module.exports = {
           { text: '版本一', link: '/v1/' }
         ]
       },
-      { text: 'Gitee', link: 'https://gitee.com/syksy/syksy-boot' },
+      { text: 'Gitee', link: 'https://gitee.com/syksy/qingzhou' },
     ],
     lastUpdated: true,
     sidebar: [
